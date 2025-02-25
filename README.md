@@ -42,7 +42,7 @@ yarn install
 
 3️⃣ Start the Frontend Server
 
-npm start
+npm run dev
 # or
 yarn start
 
@@ -50,7 +50,7 @@ This will start the frontend at http://localhost:3000
 
 4️⃣ Start the Backend Server
 
-npm run dev
+npm start
 
 Ensure that your backend is running at http://localhost:5000. The frontend makes a request to /upload for processing images.
 🛠 Available Scripts
