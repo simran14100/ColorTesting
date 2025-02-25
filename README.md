@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Color Tester App is a simple web application built with Next.js, React, and Tailwind CSS that allows users to upload an image and analyze its colors. The backend is expected to be running on a local server at http://localhost:5000.
 
-First, run the development server:
+🚀 Features
 
-```bash
+Upload an image and analyze colors.
+
+Clean and responsive UI using Tailwind CSS.
+
+Fast performance with Next.js and React 19.
+
+Uses Axios for making HTTP requests.
+
+📦 Technologies Used
+
+Frontend: Next.js 15, React 19, Tailwind CSS 3
+
+Backend (Expected): Node.js/Express (not included in this repo)
+
+Packages: Axios
+
+🛠 Setup Instructions
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Node.js (Latest LTS recommended)
+
+npm or yarn
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/your-username/color-tester-frontend.git
+cd color-tester-frontend
+
+2️⃣ Install Dependencies
+
+npm install
+# or
+yarn install
+
+3️⃣ Start the Frontend Server
+
+npm start
+# or
+yarn start
+
+This will start the frontend at http://localhost:3000
+
+4️⃣ Start the Backend Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure that your backend is running at http://localhost:5000. The frontend makes a request to /upload for processing images.
+🛠 Available Scripts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+npm start - Start the frontend server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+npm run dev - Start the backend server
 
-## Learn More
+npm run build - Build the production-ready app
 
-To learn more about Next.js, take a look at the following resources:
+npm run lint - Lint the code
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by [Simran jha]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
